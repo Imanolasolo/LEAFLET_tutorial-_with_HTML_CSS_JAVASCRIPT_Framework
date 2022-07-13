@@ -2,6 +2,15 @@
 
 Now we will give "some style" to our HTML page creating a .css page where we will modufy the HTML created objects.
 
+```
+/*Title style*/
+h1{
+    color:darkblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+```
+
 1.- We started changing the attributes of the content Title (modifying h1 object)
 
 2.- We paint it blue with `color:darkblue;`
