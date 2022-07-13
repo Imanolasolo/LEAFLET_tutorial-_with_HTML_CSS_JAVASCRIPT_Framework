@@ -1,19 +1,34 @@
-<!--LEAFLET Tutorial with HTML CSS and JavaScript Framework-->
+<!--PGIS Project from IT4PROS-->
 <!DOCTYPE html>
 <html lang="en">
 <!--Define html dependencies-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <!--CSS Dependence-->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Leaflet dependencies css-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>	
+    <!--CSS dependencies-->
+	<link rel="stylesheet" type="text/css" href="mapa.css">
 	<!--Title for web and Html-->
     <title>LEAFLET Tutorial with HTML CSS and JavaScript Framework</title>
-    <h1>LEAFLET Tutorial with HTML CSS and JavaScript Framework</h1>		
+    <h1>LEAFLET Tutorial with HTML CSS and JavaScript Framework</h1>
+
+			
 </head>
 <body>
-	 
+	<!--Map implementation-->
+    <div id="map"></div>
+	<!--JS map dependences-->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   		crossorigin=""></script>
+	    
+    <!--JS Dependences-->
+    <script src="mapa.js"></script>
+    
 	</body>
 
 </html>

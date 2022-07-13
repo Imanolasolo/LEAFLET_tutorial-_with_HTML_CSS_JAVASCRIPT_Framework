@@ -1,3 +1,11 @@
+/*PGIS Project IT4PROS*/
+
+/*Map style*/
+#map {
+    height: 450px;
+    width: 1300px;
+}
+
 /*Title style*/
 h1{
     color:darkblue;
