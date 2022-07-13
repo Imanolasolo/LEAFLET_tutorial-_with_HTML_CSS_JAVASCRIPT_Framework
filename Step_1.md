@@ -40,7 +40,7 @@ All this data and more (as we will check later) are included into the `<head>...
 
 5.- We close the HTML code with `</html>` tag
 
-This is the basic explanation about how a n HTML page works. In next steps we will cover te most advanced aspects.
+This is the basic explanation about how a n HTML page works. In next steps we will cover the most advanced aspects.
 
 
 
